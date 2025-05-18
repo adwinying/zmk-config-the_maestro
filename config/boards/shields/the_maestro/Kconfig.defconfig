@@ -1,0 +1,6 @@
+if SHIELD_THE_MAESTRO
+
+config ZMK_KEYBOARD_NAME
+  default "The Maestro"
+
+endif
