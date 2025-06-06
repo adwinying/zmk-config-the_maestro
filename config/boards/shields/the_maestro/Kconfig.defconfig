@@ -3,16 +3,10 @@ if SHIELD_THE_MAESTRO
 config ZMK_KEYBOARD_NAME
   default "The Maestro"
 
-config SPI
+config ZMK_POINTING
   default y
 
-config INPUT
-  default y
-
-config ZMK_MOUSE
-  default y
-
-config PMW3610
+config PAW3222
   default y
 
 endif
