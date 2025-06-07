@@ -1,0 +1,12 @@
+file_format: "1"
+id: the_maestro
+name: The Maestro
+type: shield
+url: https://github.com/adwinying/zmk-config-maestro
+requires: [pro_micro]
+features:
+  - keys
+  - pointer
+siblings:
+  - the_maestro_left
+  - the_maestro_right

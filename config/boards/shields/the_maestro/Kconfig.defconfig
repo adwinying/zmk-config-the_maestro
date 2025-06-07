@@ -1,12 +1,22 @@
-if SHIELD_THE_MAESTRO
+if SHIELD_THE_MAESTRO_RIGHT
 
 config ZMK_KEYBOARD_NAME
   default "The Maestro"
+
+config ZMK_SPLIT_ROLE_CENTRAL
+  default y
 
 config ZMK_POINTING
   default y
 
 config PAW3222
   default y
+
+endif
+
+if SHIELD_THE_MAESTRO_LEFT || SHIELD_THE_MAESTRO_RIGHT
+
+config ZMK_SPLIT
+    default y
 
 endif

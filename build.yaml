@@ -20,4 +20,8 @@
 ---
 include:
   - board: nice_nano_v2
-    shield: the_maestro
+    shield: the_maestro_left
+  - board: nice_nano_v2
+    shield: the_maestro_right
+  - board: nice_nano_v2
+    shield: settings_reset
