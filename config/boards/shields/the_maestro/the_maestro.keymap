@@ -124,4 +124,23 @@
       >;
     };
   };
+
+  combos {
+    compatible = "zmk,combos";
+    combo_lbkt {
+      timeout-ms = <50>;
+      key-positions = <9 21>;
+      bindings = <&kp LBKT>;
+    };
+    combo_rbkt {
+      timeout-ms = <50>;
+      key-positions = <10 22>;
+      bindings = <&kp RBKT>;
+    };
+    combo_equal {
+      timeout-ms = <50>;
+      key-positions = <11 23>;
+      bindings = <&kp EQUAL>;
+    };
+  };
 };
