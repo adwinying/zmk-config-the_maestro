@@ -17,6 +17,6 @@ endif
 if SHIELD_THE_MAESTRO_LEFT || SHIELD_THE_MAESTRO_RIGHT
 
 config ZMK_SPLIT
-    default y
+  default y
 
 endif
