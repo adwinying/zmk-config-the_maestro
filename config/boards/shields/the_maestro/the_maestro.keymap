@@ -22,7 +22,7 @@
     input-processors = <
       &zip_xy_transform INPUT_TRANSFORM_XY_SWAP
       &zip_xy_transform INPUT_TRANSFORM_Y_INVERT
-      &zip_temp_layer 4 500
+      &zip_temp_layer 4 250
     >;
 
     fast_scroll_mode: fast_scroll_mode {
