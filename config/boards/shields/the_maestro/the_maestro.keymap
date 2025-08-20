@@ -91,8 +91,8 @@
       display-name = "Function";
       bindings = <
         &trans          &kp F1       &kp F2       &kp F3       &kp F4       &kp F5                                      &kp F6         &kp F7       &kp F8       &kp F9       &kp F10      &kp F11
-        &trans          &trans       &trans       &trans       &trans       &trans                                      &trans         &mkp MB4     &mkp MB3     &mkp MB5     &trans       &kp F12
-        &trans          &trans       &trans       &trans       &trans       &trans                                      &trans         &mkp MB1     &kp UP       &mkp MB2     &trans       &trans
+        &trans          &trans       &trans       &trans       &trans       &trans                                      &trans         &mkp MB1     &mkp MB3     &mkp MB2     &trans       &kp F12
+        &trans          &trans       &trans       &trans       &trans       &trans                                      &trans         &mkp MB4     &kp UP       &mkp MB5     &trans       &trans
         &trans          &trans       &trans       &trans       &trans       &trans         &trans          &trans       &trans         &kp LEFT     &kp DOWN     &kp RIGHT    &trans       &trans
         &trans          &trans       &trans       &trans       &trans       &trans         &trans          &trans       &trans                                   &trans       &trans       &trans
       >;
@@ -113,8 +113,8 @@
       display-name = "Mouse";
       bindings = <
         &trans          &trans       &trans       &trans       &trans       &trans                                      &trans         &trans       &trans       &trans       &trans       &trans
-        &trans          &trans       &trans       &trans       &trans       &trans                                      &trans         &mkp MB4     &mkp MB3     &mkp MB5     &trans       &trans
-        &trans          &trans       &trans       &trans       &trans       &trans                                      &trans         &mkp MB1     &trans       &mkp MB2     &trans       &trans
+        &trans          &trans       &trans       &trans       &trans       &trans                                      &trans         &mkp MB1     &mkp MB3     &mkp MB2     &trans       &trans
+        &trans          &trans       &trans       &trans       &trans       &trans                                      &trans         &mkp MB4     &trans       &mkp MB5     &trans       &trans
         &trans          &trans       &trans       &trans       &trans       &trans         &trans          &trans       &trans         &trans       &trans       &trans       &trans       &trans
         &trans          &trans       &trans       &trans       &trans       &trans         &trans          &trans       &trans                                   &trans       &trans       &trans
       >;
